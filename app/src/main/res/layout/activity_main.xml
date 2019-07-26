@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".IntentActivity">
+
+
+
+    <TextView
+            android:textColor="#34C9DB"
+            android:textSize="30dp"
+            android:layout_marginTop="100dp"
+            android:text="Tic Tac Toe Game"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    <Button
+            android:id="@+id/btnGame"
+            android:background="#FA851D"
+            android:textColor="#FCFAF9"
+            android:layout_marginTop="280dp"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="90dp"
+            android:text="Single Plyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
